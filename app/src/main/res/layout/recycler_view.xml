@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:background="#48FD334E"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/icon_view"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon"/>
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/music_title_text"
+        android:text="Music"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/icon_view"/>
+
+</RelativeLayout>
